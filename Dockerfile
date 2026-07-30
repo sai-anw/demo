@@ -1,3 +1,4 @@
 FROM ubuntu:latest
 RUN mkdir -p sai
-RUN apt update -y
+RUN apt update -y 
+COPY . sai
